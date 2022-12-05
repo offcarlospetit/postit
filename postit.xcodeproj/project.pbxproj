@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BA782BB2293858D6009C80D0 /* postitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BB1293858D6009C80D0 /* postitApp.swift */; };
-		BA782BB4293858D6009C80D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BB3293858D6009C80D0 /* ContentView.swift */; };
+		BA782BB4293858D6009C80D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BB3293858D6009C80D0 /* Home.swift */; };
 		BA782BB6293858DB009C80D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA782BB5293858DB009C80D0 /* Assets.xcassets */; };
 		BA782BB9293858DB009C80D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA782BB8293858DB009C80D0 /* Preview Assets.xcassets */; };
+		BA782BC1293D41C7009C80D0 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BC0293D41C7009C80D0 /* AddNoteView.swift */; };
+		BA782BC3293D6849009C80D0 /* UpdateNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA782BC2293D6849009C80D0 /* UpdateNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA782BAE293858D6009C80D0 /* postit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = postit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA782BB1293858D6009C80D0 /* postitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postitApp.swift; sourceTree = "<group>"; };
-		BA782BB3293858D6009C80D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA782BB3293858D6009C80D0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BA782BB5293858DB009C80D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA782BB8293858DB009C80D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA782BBF29392E5F009C80D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA782BC0293D41C7009C80D0 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		BA782BC2293D6849009C80D0 /* UpdateNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		BA782BB0293858D6009C80D0 /* postit */ = {
 			isa = PBXGroup;
 			children = (
+				BA782BBF29392E5F009C80D0 /* Info.plist */,
 				BA782BB1293858D6009C80D0 /* postitApp.swift */,
-				BA782BB3293858D6009C80D0 /* ContentView.swift */,
+				BA782BC0293D41C7009C80D0 /* AddNoteView.swift */,
+				BA782BB3293858D6009C80D0 /* Home.swift */,
+				BA782BC2293D6849009C80D0 /* UpdateNoteView.swift */,
 				BA782BB5293858DB009C80D0 /* Assets.xcassets */,
 				BA782BB7293858DB009C80D0 /* Preview Content */,
 			);
@@ -137,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA782BB4293858D6009C80D0 /* ContentView.swift in Sources */,
+				BA782BC1293D41C7009C80D0 /* AddNoteView.swift in Sources */,
+				BA782BB4293858D6009C80D0 /* Home.swift in Sources */,
 				BA782BB2293858D6009C80D0 /* postitApp.swift in Sources */,
+				BA782BC3293D6849009C80D0 /* UpdateNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +280,7 @@
 				DEVELOPMENT_TEAM = 5HN3NYZH77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = postit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_TEAM = 5HN3NYZH77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = postit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
