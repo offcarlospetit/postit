@@ -50,7 +50,6 @@ struct Home: View {
                             self.updateID = note.id
                             self.showAdd.toggle()
                         }
-                        
                     }else{
                         HStack{
                             Image(systemName: "bookmark")
